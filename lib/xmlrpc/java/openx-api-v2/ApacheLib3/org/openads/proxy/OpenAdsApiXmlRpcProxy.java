@@ -1949,8 +1949,7 @@ public class OpenAdsApiXmlRpcProxy {
 	 *            'sql','web','url','html','network','txt'
 	 *            <li> fileName string (255) The name of the file in SQL or Web
 	 *            types
-	 *            <li> imageURL string (255) The URL of the image file in
-	 *            network types
+	 *            <li> imageURL text
 	 *            <li> htmlTemplate text The HTML template for HTML types
 	 *            <li> width integer The width of the banner
 	 *            <li> height integer The height of the banner
@@ -1985,8 +1984,7 @@ public class OpenAdsApiXmlRpcProxy {
 	 *            'sql','web','url','html','network','txt'
 	 *            <li> fileName string (255) The name of the file in SQL or Web
 	 *            types
-	 *            <li> imageURL string (255) The URL of the image file in
-	 *            network types
+	 *            <li> imageURL text
 	 *            <li> htmlTemplate text The HTML template for HTML types
 	 *            <li> width integer The width of the banner
 	 *            <li> height integer The height of the banner
@@ -2035,7 +2033,7 @@ public class OpenAdsApiXmlRpcProxy {
 	 * <li> bannerName string (255) The name of the banner
 	 * <li> storageType enum One of 'sql','web','url','html','network','txt'
 	 * <li> fileName string (255) The name of the file in SQL or Web types
-	 * <li> imageURL string (255) The URL of the image file in network types
+	 * <li> imageURL text
 	 * <li> htmlTemplate text The HTML template for HTML types
 	 * <li> width integer The width of the banner
 	 * <li> height integer The height of the banner
